@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <title>Cv Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div>
+		<nav id="sidebar">
+			<ul class="list-unstyled">
+			    <li><a href="#presentation"><i class="far fa-user"></i></a></li>
+                <li><a href="#experience"><i class="fas fa-medal" style="color:orange"></i></a></li>               
+                <li><a href="#competence"><i class="far fa-folder-open"></i></a></li>
+                <li><a href="#projet"><i class="fas fa-users-cog" style="color:orange"></i></a></li>
+                <li><a href="#contact"><i class="far fa-paper-plane"></i></a></li>
+			</ul>
+		</nav>
+	</div>
+
+    <div class="background">
+        <div class="texte">
+            <P>Maxime <span class="nom">Bimont</span> </P>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid gris" id="presentation">
+        <div class="container">
+            <div class="row">
+                <h1><i class="far fa-user"></i> Qui suis je</h1>                
+                <hr class="barre">
+                <p id="moi">
+					Étudiant en DUT informatique & autodidacte passionné en informatique.<br>J'ai toujours été entouré par des objects 
+                    informatiques, c'est donc cette passion m'a amené là ou je suis aujourd'hui.<br>Aujourd'hui
+                    je recherche une voie dans laquelle je souhaite me perfectionner.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid orange" id="experience">
+        <div class="container">
+            <div class="row">
+                <h1> <i class="fas fa-medal"></i> Mon expérience</h1>
+                <hr class="barre">
+                <button class="btnexp">Travail Saisonnier en Restauration (2020/2021)</button>
+                <i class="fas fa-arrow-up iexp"></i>
+                <button class="btnexp">Baccalauréat Scientifique Option ISN & Euro (2020)</button>
+                <i class="fas fa-arrow-up iexp"></i>
+                <button class="btnexp">Stage en entreprise (2019)</button>
+                <i class="fas fa-arrow-up iexp"></i>
+                <button class="btnexp">Brevèt des collèges (2017)</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid gris">
+        <div class="container">
+            <div class="row">                
+                <h1><i class="far fa-folder-open" id="competence"></i> Mes compétences</h1>
+                <hr class="barre">
+                <div class="row">
+                    <div class="col-6">
+                        <button class="cbtn">HARDSKILL</button>
+                    </div>
+                    <div class="col-6">
+                        <button class="cbtn">SOFTSKILL</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="image/html.png" class="img" alt="...">
+                        <img src="image/css.png" style="width: 70px;"  alt="...">
+                        <img src="image/java.png" style="width: 70px;"  alt="...">
+                        <img src="image/vsc.png" class="img"  alt="...">
+                        <img src="image/eclipse.png" class="img"  alt="...">
+                        <img src="image/word.png" class="img"  alt="...">
+
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled softskill">
+                            <li>Travail en équipe</li>
+                            <li>Autonome</li>
+                            <li>Rigoureux</li>
+                            <li>Méthodique</li>
+                            <li>Passionné</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid orange" id="projet">
+        <div class="container">
+            <div class="row">
+                <h1><i class="fas fa-users-cog"></i> Mes projets</h1>
+                <hr class="barre">
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">                            
+                            <h3 class="card-title">Sokoban</h3>
+                            <p class="card-text">Un jeu iconique coder en language C durant notre premier semestre.</p>
+                            <a href="https://gitlab.univ-lille.fr/maxime.bimont.etu/sokoban" target="_blank" class="btn">Go To GitLab</a>
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Convertisseur_Color</h3>
+                            <p class="card-text">Un convertisseur de couleur en Java/IHM pour des tableaux excel.</p>
+                            <a href="https://gitlab.univ-lille.fr/theo.ernould.etu/projet-ihm" target="_blank" class="btn">Go To GitLab</a>
+                        </div>
+                    </div>
+                </div>                
+    
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Le Jeu du Moulin</h3>
+                            <p class="card-text">Redécouvrez ce jeu à traver un interface Linux codé en groupe. </p>
+                            <a href="https://gitlab.univ-lille.fr/maxime.bimont.etu/horizons-mmet-c1-1" target="_blank" class="btn">Go To GitLab</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid gris" id="contact">
+        <div class="container">
+            <div class="row">
+                <h1><i class="far fa-paper-plane"></i> Me contacter</h1>
+                <hr class="barre">
+                <p class="contact"><i class="far fa-envelope btncontact"></i> mbperso2311@gmail.com</p>
+                <p class="contact"><i class="fas fa-mobile-alt btncontact" ></i> 06 73 62 58 15</p>
+                <p class="contact"><i class="fab fa-linkedin-in btncontact"></i> <a href="https://www.linkedin.com/in/maxime-bimont-4001101b9/" target="_blank">Mon Profil Linkedin</a> </p>
+                <a href="fichier/cv.pdf" target="_blank"><button type="button" class="btn btn-dl">Télécharger mon CV</button></a>                
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+</body>
